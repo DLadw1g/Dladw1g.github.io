@@ -1,0 +1,120 @@
+*{
+    display:block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-family:'Roboto','sans-serif';
+    font-weight: bold;
+    font-size: 26px;
+}
+
+h2{
+    font-family:'Poppins',sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+p{
+    font-family:'Poppins', sans-serif;
+    font-size:14px;
+}
+
+p.technical{
+    font-family:'Chivo Mono', monospace;
+}
+
+header{
+    width:fit-content;
+    margin: 10px auto;
+}
+
+.container{
+    display:block;
+    width:1000px;
+    border: 1px solid black;
+    padding: 10px 10px;
+    margin:10px auto;
+}
+
+/*Color section*/
+
+.colors div {
+   position:relative;
+   display:inline-block;
+   width:300px;
+   padding: 10px 60px;
+   margin: 10px auto;
+   text-align:center;
+}
+
+
+div.forestgreen {
+    background-color: hsl(123, 92%, 25%);
+    color: white;
+}
+
+div.mintgreen {
+    background-color: hsl(123, 47%, 80%);
+    color: black;
+}
+
+div.oceanblue {
+    background-color: hsl(216, 73%, 43%);
+    color: white;
+}
+
+div.skyblue {
+    background-color: hsl(199, 85%, 62%);
+    color: black;
+}
+
+div.coffeebrown {
+    background-color: hsl(36, 100%, 16%);
+    color: white;
+}
+
+div.desertkahki {
+    background-color: hsl(36, 63%, 50%);
+    color: black;
+}
+
+p.colorspec{
+    font-family:'Chivo Mono', monospace;
+}
+
+
+/*Font Section*/
+
+.fonts div{
+    display:inline-block;
+    padding: 10px 50px;
+}
+
+.fontname{
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.italicfont{
+    font-style: italic;
+}
+
+.boldfont{
+    font-weight: bold;
+}
+
+.poppins p{
+    font-family:'Poppins', sans-serif;
+}
+
+.roboto p{
+    font-family:'Roboto', sans-serif;
+}
+
+.chivomono p{
+    font-family:'Chivo Mono', monospace;
+}
+
+/*Text Styles*/
+
